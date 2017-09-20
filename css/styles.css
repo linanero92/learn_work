@@ -33,19 +33,12 @@ html, body {
 .logo {
   display: inline-block;
   width: 30%;
-  padding: 10px;
+  padding-top: 20px;
   text-align: left;
 }
 
-.main-title {
-  font: 35px/1.2 , sans-serif;
-  text-transform: uppercase;
-  color: #FFFFFF;
-}
-
-.main-title span {
-  font-weight: 700;
-  color: #826E8C;
+.link-logotype {
+  text-decoration: none;
 }
 
 .navbar {
@@ -58,20 +51,19 @@ html, body {
 
 .menu {
   display: inline-block;
-  margin: 0;
+  margin-top: -15px;
   padding: 0; 
   list-style: none;
   font: 700 16px/1.2 'Raleway', sans-serif;
   text-transform: uppercase;
 }
   
-.col {
+.menu-list {
   display: inline-block;
   margin-right: 20px;
-  border: 1px solid black
 }
 
-a {
+.menu-link {
   text-decoration: none;
   color: #DFDDDD;
 }
