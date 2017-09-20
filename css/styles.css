@@ -75,7 +75,8 @@ html, body {
  }
 
 .hdr-two {
-  width: 59.3%;
+  width: auto;
+  max-width: 1100px;
   padding: 100px;
   margin: 0 auto;
   color: #FFFFFF;
@@ -94,20 +95,22 @@ html, body {
   margin-bottom: 100px; 
 }
 
-.btn {
-  padding: 20px 70px;
+.header-link {
+  display: inline-block;
+  padding: 20px 50px;
   font: 16px/1.2 'Raleway', sans-serif;
+  text-decoration: none;
   text-transform: uppercase;
-  color: #FFFFFF;
-  background-color: #E20202;
+  color: #ffffff;
+  background-color: #e20202;
   border: none;
 }
 
-.btn:hover {
+.header-link:hover {
   cursor: pointer;
 }
 
-.btn:active {
+.header-link:active {
   box-shadow: inset 0 2px 2px rgba(0, 0, 0, 0.2);
 }
 
