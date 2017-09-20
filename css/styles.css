@@ -45,6 +45,7 @@ html, body {
   display: inline-block;
   width: 70%;
   padding-top: 40px;
+  padding-bottom: 18px;
   vertical-align: top;
   text-align: right;
 }
@@ -63,9 +64,17 @@ html, body {
   margin-right: 60px;
 }
 
+.menu-list:hover {
+  cursor: pointer;
+}
+
+.menu-link:hover {
+  color: #ffffff;
+}
+
 .menu-link {
   text-decoration: none;
-  color: #ffffff;
+  color: #cacad1;
 }
  
 .section-wrap {
@@ -115,14 +124,13 @@ html, body {
 }
 
 .features {
-  width: 100%;
   text-align: center;
 }
 
-.wrapper-features {
+.wrap-features {
   display: inline-block;
-  width: 59.3%;
-  margin: 0 auto;
+  width: auto;
+  max-width: 1075px;
   font-size: 0;
   vertical-align: top;
 }
