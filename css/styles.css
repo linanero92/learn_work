@@ -428,33 +428,33 @@ ul.social-list {
   padding: 0;
 }
 
-.sprite-one,
-.sprite-two,
-.sprite-three {
+.sprite-fb,
+.sprite-tw,
+.sprite-in {
   display: inline-block;
 }
 
-.link-sprite-one,
-.link-sprite-two,
-.link-sprite-three {
+.link-sprite-fb,
+.link-sprite-tw,
+.link-sprite-in {
   display: inline-block;
   background-image: url(../images/spritesheet_soc.png); 
   background-repeat: no-repeat;
 }
 
- .link-sprite-one {
+ .link-sprite-fb {
   width: 40px;
   height: 40px;
   background-position: -5px -5px;
  }
 
-.link-sprite-two {
+.link-sprite-tw {
   width: 40px;
   height: 40px;
   background-position: -55px -5px;
 }
 
-.link-sprite-three {
+.link-sprite-in {
   width: 40px;
   height: 40px;
   background-position: -105px -5px;
