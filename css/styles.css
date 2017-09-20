@@ -380,13 +380,13 @@ background-repeat: no-repeat;
   width: 100%;
 }
 
-.ftr-one {
+.footer-one {
   width: 100%;
   background-color: #3a3e64;
   text-align: center;
 }
 
-.ftr-wrapper {
+.footer-wrapper {
   width: 59,3%;
   margin: 0 auto;
   color: #FFFFFF;
@@ -447,7 +447,7 @@ ul.social-list {
   background-position: -105px -5px;
 }
 
-.ftr-info {
+.footer-info {
   display: inline-block;
   width: 33%;
   padding: 80px;
@@ -463,19 +463,20 @@ ul.social-list {
   text-transform: uppercase;
 }
 
-.ftr-two  {
+.footer-two  {
   background-color:#313454;
   margin-top: -15px;
-  margin-bottom: -15px;
+  padding-top: 10px;
+  padding-bottom: 10px;
   text-align: center;
   font-style: normal;
 }
 
-.ftr-two p {
-  font: normal 14px/1.2 Arial, sans-serif;
+.footer-two p {
+  font: 13px/1.7 Arial, sans-serif;
   color: #9F9F9F;
 }
 
-.ftr-two p span {
+.footer-two p span {
   color: #FFFFFF;
 }
