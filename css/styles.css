@@ -111,12 +111,13 @@ html, body {
   text-decoration: none;
   text-transform: uppercase;
   color: #ffffff;
-  background-color: #e20202;
+  background-color: #e84545;
   border: none;
 }
 
 .header-link:hover {
   cursor: pointer;
+  background-color: #d92525;
 }
 
 .header-link:active {
