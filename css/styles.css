@@ -15,7 +15,6 @@ html, body {
 }
 
 .hdr-one {
-  width: 100%;
   position: fixed;
   top: 0;
   left:0;
@@ -25,7 +24,8 @@ html, body {
 }
 
 .hdr-wrap {
-  width: 59.3%;
+  width: auto;
+  max-width: 1600px;
   margin: 0 auto;
   vertical-align: top;
 }
@@ -44,8 +44,8 @@ html, body {
 .navbar {
   display: inline-block;
   width: 70%;
+  padding-top: 40px;
   vertical-align: top;
-  margin-top: 40px;
   text-align: right;
 }
 
@@ -54,18 +54,18 @@ html, body {
   margin-top: -15px;
   padding: 0; 
   list-style: none;
-  font: 700 16px/1.2 'Raleway', sans-serif;
+  font: 700 13px/1.3 'Raleway', sans-serif;
   text-transform: uppercase;
 }
   
 .menu-list {
   display: inline-block;
-  margin-right: 20px;
+  margin-right: 60px;
 }
 
 .menu-link {
   text-decoration: none;
-  color: #DFDDDD;
+  color: #ffffff;
 }
  
 .wrap {
@@ -267,18 +267,18 @@ background-repeat: no-repeat;
 }
 
 .gallery {
-  width: 100%;
+  width: auto;
   margin-top: 110px;
   background-color: #2b2e4a;
 }
 
 .wrap-gallery-one {
-  width: 100%;
+  width: auto;
   font-size: 0;
 }
 
 .wrap-gallery-two {
-  width: 100%;
+  width: auto;
   font-size: 0;
 }
 
@@ -292,6 +292,11 @@ background-repeat: no-repeat;
 .gallery-photo-eight {
   position: relative;
   display: inline-block;
+  width: 25%;
+}
+
+.gallery-images {
+  width: 100%;
 }
 
 .gallery-photo-one {
