@@ -380,11 +380,11 @@ background-repeat: no-repeat;
   font-weight: regular;
 }
 
-.gallery-photo-3:hover .overlay h1 {
+.gallery-photo-three:hover .overlay h1 {
   display: block;
 }
 
-.gallery-photo-3:hover .overlay p {
+.gallery-photo-three:hover .overlay p {
   display: block;
 }
 
