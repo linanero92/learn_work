@@ -25,14 +25,14 @@ html, body {
 
 .header-wrap {
   width: auto;
-  max-width: 1600px;
+  max-width: 1170px;
   margin: 0 auto;
   vertical-align: top;
 }
 
 .logo {
   display: inline-block;
-  width: 30%;
+  width: 40%;
   padding-top: 42px;
   padding-bottom: 38px;
   text-align: left;
@@ -44,11 +44,11 @@ html, body {
 
 .navbar {
   display: inline-block;
-  width: 70%;
+  width: 60%;
   padding-top: 57px;
   padding-bottom: 15px;
   vertical-align: top;
-  text-align: right;
+   text-align: right;
 }
 
 .menu {
@@ -60,12 +60,47 @@ html, body {
   text-transform: uppercase;
 }
   
-.menu-list {
+.menu-list-one,
+.menu-list-two,
+.menu-list-three,
+.menu-list-four,
+.menu-list-five {
   display: inline-block;
-  margin-right: 60px;
 }
 
-.menu-list:hover {
+.menu-list-four {
+  margin-right: 55px;
+}
+
+.menu-list-three {
+  margin-right: 55px;
+}
+
+.menu-list-two {
+  margin-right: 57px;
+}
+
+.menu-list-one {
+  margin-right: 57px;
+}
+
+.menu-list-one:hover {
+  cursor: pointer;
+}
+
+.menu-list-two:hover {
+  cursor: pointer;
+}
+
+.menu-list-three:hover {
+  cursor: pointer;
+}
+
+.menu-list-four:hover {
+  cursor: pointer;
+}
+
+.menu-list-five:hover {
   cursor: pointer;
 }
 
@@ -80,7 +115,7 @@ html, body {
  
 .section-wrap {
   padding-top: 192px;
-  padding-bottom: 157px;
+  padding-bottom: 155px;
   background: url(../images/header-backgroudn.jpg) no-repeat;
   background-size: cover;
  }
@@ -112,7 +147,6 @@ html, body {
 .header-link {
   display: inline-block;
   margin-top: 50px;
-  /*margin-bottom: 50px;*/
   padding: 13px 50px;
   border-radius: 3px;
   font: 13px/1.6 'Raleway', sans-serif;
