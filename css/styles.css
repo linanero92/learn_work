@@ -25,7 +25,7 @@ html, body {
 
 .header-wrap {
   width: auto;
-  max-width: 1170px;
+  max-width: 1180px;
   margin: 0 auto;
   vertical-align: top;
 }
@@ -422,42 +422,49 @@ background-repeat: no-repeat;
   display: block;
 }
 
-.footer {
-  width: 100%;
-}
-
 .footer-one {
-  width: 100%;
   background-color: #3a3e64;
-  text-align: center;
 }
 
 .footer-wrap {
   width: auto;
-  max-width: 1020px;
+  max-width: 1130px;
   margin: 0 auto;
-  color: #ffffff;
+  padding-top: 53px;
+  padding-bottom: 107px;
+  text-align: justify;
 }
 
 .loc {
   display: inline-block;
-  width: 33%;
-  padding: 80px 0;
-  margin: 0 auto;
+  width: 31%;
+  margin-right: 38px;
   vertical-align: top;
-  font: 14px/1.6 "Raleway", sans-serif; 
+  font: 14px/0.8 "Raleway", sans-serif; 
+  text-align: center;
+  color: #adaebb;
 }
 
 .social {
   display: inline-block;
-  width: 33%;
-  padding: 80px 0;
-  margin: 0 auto;
+  width: 31%;
+  margin-right: 30px;
   vertical-align: top;
   font: 14px/1.6 "Raleway", sans-serif;  
+  text-align: center;
+  color: #adaebb;
 }
 
-ul.social-list {
+.loc-title,
+.social-title,
+.footer-title {
+  font: 14px/1.4 "Raleway", sans-serif; 
+  font-weight: bold;
+  text-transform: uppercase;
+  color: #ffffff;
+}
+
+.social-list {
   list-style: none;
   padding: 0;
 }
@@ -466,6 +473,14 @@ ul.social-list {
 .sprite-tw,
 .sprite-in {
   display: inline-block;
+}
+
+.sprite-fb {
+  margin-right: 3px;
+}
+
+.sprite-tw {
+  margin-right: 3px;
 }
 
 .link-sprite-fb,
@@ -496,18 +511,11 @@ ul.social-list {
 
 .footer-info {
   display: inline-block;
-  width: 33%;
-  margin: 0 auto;
-  padding: 80px 0;
+  width: 31%;
   vertical-align: top;
   font: 14px/1.6 "Raleway", sans-serif;
-}
-
-.loc-title,
-.social-title,
-.footer-title {
-  font-weight: bold;
-  text-transform: uppercase;
+  text-align: center;
+  color: #adaebb;
 }
 
 .footer-two  {
@@ -520,10 +528,6 @@ ul.social-list {
 }
 
 .footer-two p {
-  font: 13px/1.7 Arial, sans-serif;
-  color: #9F9F9F;
-}
-
-.footer-two p span {
-  color: #FFFFFF;
+  font: 14px/1.6 "Raleway", sans-serif;
+  color: #808080;
 }
